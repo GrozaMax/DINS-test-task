@@ -63,7 +63,7 @@ testCase('/GET posts', function(){
   });
 
 testCase('/GET posts', function(){
-      it('it should GET port id=2: empty userId and correct title', (done) => {
+      it('it should GET post id=2: empty userId and correct title', (done) => {
         chai.request('https://jsonplaceholder.typicode.com')
             .get('/posts/?title=qui est esse')
             .end((err, res) => {
