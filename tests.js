@@ -1,5 +1,8 @@
 "use strict";
-
+/*
+просто тестим как работает
+*/
+ */
 var chai = require('chai');
 var testCase = require('mocha').describe;
 var chaiHttp = require('chai-http');
