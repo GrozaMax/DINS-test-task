@@ -1,3 +1,3 @@
 # DINS-test-task
 JS script for testing API
-test commit from WS
+test guest commit from WS
