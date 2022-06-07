@@ -8,6 +8,7 @@ var should = chai.should();
 chai.use(chaiHttp);
 
 // test for GET	/posts
+// test for GET	/posts
 testCase('/GET posts', function(){
       it('it should GET second post', (done) => {
         chai.request('https://jsonplaceholder.typicode.com')
